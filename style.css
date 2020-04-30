@@ -1,0 +1,291 @@
+*{
+    font-family: sans-serif
+}
+.row1{
+    background-color: #316DC3;  
+}
+.fonts-awesome{
+
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px;
+   
+ 
+ 
+    
+}
+
+.fonts-awesome-whatsapp{
+    display: inline-block;
+    text-decoration: none;
+    background-color:  #4ac959;
+    color: white;
+    padding: 7px;
+    height: 5vh;
+   
+
+
+
+}
+ul{
+    text-align: center;
+    margin: 5px 0px 0px -5px;
+    
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    
+
+}
+.headerpara{
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    padding-top: 7px;
+
+    font-size: 14px;
+}
+.headerbuttons{
+    display: inline-block;
+  
+
+    font-size: 12px;
+
+}
+.headerbuttons>button{
+    color: #427900 ;
+    border: 1px solid #427900  ;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.navbar{
+   
+
+    margin: 0px auto 0px auto;
+}
+.headerlis>li{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+ 
+}
+.nav-item>a:hover{
+    border-radius: 30px;
+    
+ 
+    color: white;
+   margin: 0;
+   padding-top: 7px ;
+
+  
+
+
+    
+    background-color: #316DC3;
+}
+.nav-item>li:hover{
+    color: white;
+}
+
+.d-block{
+  
+  
+    padding: 0;
+    margin: 0;
+}
+.carouselcol{
+    padding: 10px;
+}
+.carouselbelowtext{
+    background-color: #316DC3; 
+    padding: 4px;
+   width: 85%; 
+   text-align: center;
+   margin: 0px auto 0px auto;
+   font-size: 14px;
+   color: white;
+}
+p>a{
+    color: darkblue;
+}
+.introheading{
+    color: #316DC3;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+ 
+
+}
+
+.spanduction{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.collogo>img{
+   
+     
+   
+        height: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  
+
+        
+     
+      
+}
+.linelogo{
+    margin: 0;padding: 0;
+}
+
+.lineImg{
+      color: #427900;
+      width: 4%;
+      font-weight: bolder;
+}
+.intropara{
+     width: 69%; margin: 20px auto 50px auto; text-align: justify; font-size: 14px; line-height: 1.9em; color: #666666;
+}
+.numericalcol{
+    padding-top: 2%;
+    padding-bottom: 7% ;
+    
+       
+
+}
+.Icons{
+    display: block; padding: 2%; margin: 50px auto 0px auto; height: 50px;
+}
+
+.IconHeading1{
+    display: block; text-align: center; padding: 2%; font-size: 43.2px; letter-spacing: 2px; font-family: 'Merriweather', serif;color: white; font-weight: 600;
+  
+    
+}
+.IconHeading2{
+    display: block; font-size: 15px; color: white; font-weight: bold;font-family: 'Merriweather', serif;
+   text-align: center;  margin: 0px auto 0px auto;
+}
+
+
+.monthlyspan{
+    font-size: 16px;
+    color:  #00ff00;
+    font-family: 'Merriweather', serif;
+    display: inline-block;  font-weight: bold;font-family: 'Merriweather', serif;
+    margin: 0px auto 0px auto; 
+    
+}
+#whatcardrow {
+    
+    width: 90%;
+text-align: center;
+padding-bottom: 4.5%;
+padding-top: 2%;
+
+margin: 0px auto 0px auto;
+
+
+
+    
+}
+.whatcardcol{
+       
+  padding-top: 2%;
+  
+} 
+.whatcard{
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.whatcard>img{
+    padding-top:10%;
+    height: 100px;
+   
+}
+.card-heading{
+
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+    font-size: 18px;
+    margin: 7px 0px 10px;
+    text-align: center;
+    padding-bottom:5%;
+ 
+}
+#projrow{
+    width: 90%;
+ 
+    padding-bottom: 4%;
+    padding-top: 5%;
+    
+    margin: 0px auto 0px auto;
+  
+    
+}
+
+.missionupcomingheading{
+
+        color: #316DC3;
+        text-align:  left;
+   
+        font-weight: 600;
+        font-size: 24px;
+        font-family: 'Merriweather', serif;
+     
+    
+    
+}
+.linebottom{
+    /* bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 15px;
+    position: absolute;
+    width: 5%;
+    border-collapse: separate;
+    background-color: #427900; */
+
+    width: 4%;
+    color: #427900;
+    font-weight: bolder;
+    margin-top: -17px;
+}
+.projline{
+    color: #427900;
+    width: 6%;
+    margin: 0px auto 0px 0px;
+    
+    border: 1px solid #427900;
+    }
+.missionsubdivs{
+   
+    margin-top: 20px;
+
+ 
+  
+ 
+}
+
+.aimscard{
+background-color: #F7F8FA;
+    padding: 15px;
+}
+
+.aimsheading{
+    color: #316DC3; font-size: 15px; display: inline-block; padding: 15px 0px 7px 20px;   font-family: 'Merriweather', serif;
+}
+@media only screen and (max-width:1100px) {
+ .IconHeading1{
+     font-size: 38.4px;
+ }
+
+}
