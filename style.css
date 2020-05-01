@@ -1,64 +1,80 @@
 *{
     font-family: sans-serif
 }
-.row1{
+#headerrow{
     background-color: #316DC3;  
+    width: 90%;
+    margin: 0px auto 0px auto;
+    
 }
+.headericonsul{
+
+    
+  
+    padding: 0px;
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+   }
+ 
+   .headericonsli{
+       text-decoration: none;
+       display: inline-block;
+       padding-left: 10px;
+    
+     
+     
+       width: 30px;
+      
+   }
 .fonts-awesome{
 
     color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px;
-   
- 
- 
-    
+    font-size: 1rem;
 }
 
 .fonts-awesome-whatsapp{
-    display: inline-block;
-    text-decoration: none;
-    background-color:  #4ac959;
+   background-color:  #4ac959;
+    font-size: 1rem;
     color: white;
-    padding: 7px;
-    height: 5vh;
-   
-
-
-
+    /* padding: 7px;
+    height: 5vh; */
 }
-ul{
-    text-align: center;
-    margin: 5px 0px 0px -5px;
-    
-}
-li{
-    text-decoration: none;
-    display: inline-block;
-    
 
-}
 .headerpara{
     text-align: center;
     color: white;
-    white-space: nowrap;
-    padding-top: 7px;
+  
+    margin-top: 10px;
+
 
     font-size: 14px;
 }
+
 .headerbuttons{
     display: inline-block;
-  
 
-    font-size: 12px;
+
+}
+.headerbuttonli{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+ 
+    
+    background-color: #4ac959;
 
 }
 .headerbuttons>button{
     color: #427900 ;
     border: 1px solid #427900  ;
-    padding: 5px 10px;
-    font-size: 12px;
+    font-size: 11px;
+    padding:5px 10px;
+  
+ 
 }
 
 .navbar{
@@ -283,9 +299,136 @@ background-color: #F7F8FA;
 .aimsheading{
     color: #316DC3; font-size: 15px; display: inline-block; padding: 15px 0px 7px 20px;   font-family: 'Merriweather', serif;
 }
-@media only screen and (max-width:1100px) {
- .IconHeading1{
-     font-size: 38.4px;
- }
+.footercols,.footercolmiddle{
+    padding-bottom: 40px;
+}
+.footercollast{
+    padding-bottom: 40px;
+}
+.footerpara{
+    margin: 90px auto 30px 80px;  color: #bbbbbb; font-size: 14px; font-family: sans-serif;
+}
+.footerul{
+    margin: -20px auto 5px 50px;
+    line-height: 1.7em;
+    font-family: sans-serif;
+}
+.footerlis{
+    text-decoration: none;
+    display: block;
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: sans-serif;
+}
 
+.footerlis>i{
+    color: #427900;
+}
+
+.usefullinksheading ,.connectwithusheading{
+    font-size: 14px;
+    font-family: 'Merriweather',serif;
+    color: white;
+    text-align: left;
+
+    margin-top: 60px;
+
+}
+.footersocialmediaul{
+    padding:0;
+    margin: 0;
+  
+}
+.footersocialmedialis{
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px 7px 2px 0;
+    width: 30px;
+    background-color: #316DC3;
+    border-radius: 50%;
+  
+
+}
+
+.footersocialmedialis>a {
+    color: white;
+margin-left: 10px;
+    
+}
+
+.lastcopyrightpara{
+    color: white;
+    font-size: 11px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #316DC3;
+    padding: 15px 0px 0px 90px;
+   
+
+}
+#myBtn {
+  
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+
+    border: none;
+    outline: none;
+    background-color: #666666;
+    opacity: 0.2;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    height: 8vh;
+  
+ 
+  }
+
+  
+  #myBtn:hover {
+    background-color: #555;
+    opacity: 1;
+  }
+  #myBtn>i{
+    font-size: 2.7rem;
+    margin-top: -10px;
+  
+  }
+@media only screen and (max-width: 767px) {
+    .footercols{
+        padding-bottom:20px;
+    }
+    .footercolmiddle{
+        padding-bottom: 0px;
+    }
+    .footercollast{
+        padding-bottom: 70px;
+    }
+    .footerpara{
+        margin-left: 0px;
+    }
+    .footerul{
+        margin: 0;
+        padding: 0;
+        margin-top: -20px;
+ 
+      
+
+    }
+ .footerlis{
+     display: inline-block;
+     padding-left: 15px;
+     margin-left: -10px;
+ }
+ .usefullinksheading{
+     margin-top: 0px;
+ }
+ .connectwithusheading{
+     margin-top: 0px;
+ }
+ .lastcopyrightpara{
+     padding-left: 0px;
+ }
 }
